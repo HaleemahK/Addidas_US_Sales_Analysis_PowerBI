@@ -34,23 +34,23 @@ To maximize strategic value, this analysis was framed from the perspective of re
 
 # Dataset Overview
 
-This dataset contains **9648 Total Transactions** it captures detailed informations like Retailer, Retailer ID, Region,State, City, Product, Per unit price, Unit sold,Total sales, Operating profit,Operating margin,Sales Method,Sales price, Profit margin,Cost and Adidas Calender, making it suitable for analysis
+This dataset contains **9648 Total Transactions** it captures detailed informations like Retailer, Retailer ID, Region,State, City, Product, Per unit price, Unit sold,Total sales, Operating profit,Operating margin,Sales Method,Sales price, Profit margin,Cost and Adidas Calender, making it suitable for analysis.
    
- - **Retailer**-
- - **Retailer ID**-
- - **Region
- - **State
- - **City
- - **Product
- - **Per unit price
- - **Unit sold
- - **Total sales
- - **Operating profit
- - **Operating margin
- - **Sales Method
- - **Sales price
- - **Profit margin
- - **Cost
- - **Addidas Calender
+ - **Retailer**- The retailer stores that sells products directly to consumers( Warmart, Amazon, Foot locker, Kohl's, Sport direct, Wear gear). 
+ - **Retailer ID**- Unique identifer for each customers.
+ - **Region**- The geographical area in the US in which the products are sold.
+ - **State**- The states in which the products are sold.
+ - **City**- The cites in which the products are sold.
+ - **Product**- The various types of products sold.
+ - **Per unit price**- The amount of money charged to a customer for a single product.
+ - **Unit sold**- The total quantity of products sold during a specific period.
+ - **Total sales**- The total money received from selling the product.
+ - **Operating profit**- The profit earned before interest and task.
+ - **Operating margin**- The percentage of revenue that remains as operating profit after covering all operating expenses.
+ - **Sales Method**- The method in which the products are sold(Out-let, Online, In-store).
+ - **Sales price**- The final price which was paid for the product.
+ - **Profit margin**- The percentage ratio that shows how much revenue is kept as profit after expenses.
+ - **Cost**- The total expense incurred to produce, acquire, and deliver the product.
+ - **Addidas Calender** The period in which the trasaction occurred, this took the span of 2 year(2020,2021)
  
  Analysis explores sales performance across products, regions, and channels to identify revenue trends, customer demand patterns, and key growth opportunities. The project demonstrates data cleaning, analysis, and visualization for data-driven retail insights.
