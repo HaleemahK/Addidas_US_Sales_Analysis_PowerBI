@@ -94,7 +94,7 @@ The dashboard is structured into two main pages, each focusing on  Performance A
 
 ## Page 1: Performance Analysis and Regional trends
 
-**Retail Goal:**
+**Business Goal:**
 Analyze the revenue by the product, retailer, sales method,region and the percentage margin for sales method and average operating margin by product.
 <img width="989" height="556" alt="Page 1  Addidas Dataset" src="https://github.com/user-attachments/assets/fd27cbf3-f78b-4402-af6c-016af2337421" />
 
@@ -113,13 +113,13 @@ This KPIs shows a snapshot of customer behaviour and sales activity, thereby hel
 ## Visuals
 
 - **Revenue by Product(Column Chart):** It represents the total sales for each products (Women's Apparel,Men's Street Footwear,Men's Athletic Footwear,Women's Street Footwear,Women's Athletic Footwear,Men's Apparel).
-- **Revenue by Region (Column Chart):** It represent the total revenue for each regionS (Midwest,Northeast,South,Southeast,West).
+- **Revenue by Region (Column Chart):** It represent the total revenue for each region (Midwest,Northeast,South,Southeast,West).
 - **Revenue by sales method (Column Chart):** It represents the total sales for each sales method( Out-let, Online, In-store).
 - **Revenue by Retailer (Column Chart):** It represents the total sales for each retailer(West Gear, Foot Locker, Kohl's, Sport Direct, Amazon, Walmart).
 - **ProfitMargin by Sales Method( Bar Chart):** It represents the percentage profit for each sales method.
 - **AvgOperatingMargin by Product (Column Chart):** It represents the average operating margin for each product.
 
- ## Slicers: Year, Region and Product
+## Slicers: Year, Region and Product
 
  The dashboard includes  **Year, Region and Product** slicer that allows user to fliter and interact with the data. It also includes an interactive title which gives a well defined title when being flitered. 
 
@@ -127,6 +127,84 @@ This KPIs shows a snapshot of customer behaviour and sales activity, thereby hel
 
   ----
 
-  # Page Two: Profitability Insights and Temporal Trends 
------
- Analysis explores key growth opportunities. The project demonstrates data cleaning, analysis, and visualization for data-driven retail insights.
+ # Page Two: Profitability Insights and Temporal Trends 
+
+ **Business Goal:**
+Analyze the Profit by the product, Totalsales by product, Avg unit sold by product, Reveunue profit by Monthname and the Revenue by Year, Quarter and Month.
+<img width="991" height="554" alt="Page 2  Addidas Dataset" src="https://github.com/user-attachments/assets/0660da07-bbf2-4447-b803-8f899c5eed3d" />
+
+# Key Metrics( Top of the page): Revenue, Profit, AvgOperatingMargin, Unit sold, Total Trasactions.
+
+- **Revenue:** The total amount of money made from the products.
+- **Profit:** This is the net income.
+- **AvgOperatingMargin:** The average of the overall operating margin.
+- **Unit sold:** The total number of products sold.
+- **Total Trasactions:** The total number of transactions made.
+  
+This KPIs shows a snapshot of customer behaviour and sales activity, thereby helping stakeholdes identify the key drivers of revenue and transaction frequency.
+
+-------
+
+## Visuals
+
+- **Profit by Product(Column Chart):** It represents the profit for each products (Women's Apparel,Men's Street Footwear,Men's Athletic Footwear,Women's Street Footwear,Women's Athletic Footwear,Men's Apparel).
+- **Topsales by Region (Bar Chart):** It represent the number of transactions for each region (Midwest,Northeast,South,Southeast,West).
+- **Average unit sold by product (Column Chart):** The average amount of unit sold for each products.
+- **Revenue and profit by Monthname (Column Chart and Line Chart):** The column chart represents the revenue while the line chart represents the profit. They represent the Total sales and profit made in each months.
+- **Revenue by Year, Quarter and Month (Line Chart):** It represents the  profit for total sales made Yearly and Quarterly.
+
+## Slicers: Year, Region and Product
+
+ The dashboard includes  **Year, Region and Product** slicer that allows user to fliter and interact with the data. It also includes an interactive title which gives a well defined title when being flitered. 
+
+ This interactive fliters ensures that KPIs, charts and visuals adapt instantly giving the stakeholders a flexible view by narrowing the focus on specific Year, Region or Product.
+
+# Key Analysis Findings
+
+The analysis of the Retail sales provided various insights into Performance Analysis, Regional and Temporal Trends, Profitability Insights,and Product-Specific Analysis:
+
+## 1. Performance Analysis:
+
+- The total revenue reached **$899.9M** across 9648 transactions, with **2M** unit sold and an average operating margin of **42.30%**.
+- The Men's Street Footwear generated the highest revenue with the sum of **$208.83M**.
+- The Sales method with the highest revenue is  the **In-store** with the sum of **$357M**
+- The total profit reached **$332M**.
+
+## 2. Regional and Temporal Trends:
+
+- In April 2020, the revenue generated was **$24.6M** which made it the highest revenue for that year and December had the lowest  with **$8.03M**
+- In 2021, July generated the highest revenue with **$78.34M**, while March had the lowest revenue with **$39.15M**
+- The West Region cntributes the most to the revenue with **$269.94M**
+
+ ## 3. Profitability Insights: 
+
+ - The Men's street wear generated the highest profit which is **$83M**
+ - The Online sales method has the highest profit margin which is **39.98%** while the In- store has the lowest operating margin which is **35.7%**
+
+ ## 4. Product-Specific Analysis:
+
+ - The Women's Athletic Footwear gernarates more profit and revenue compared to that of the Women's Street wear.
+ - The Men's Street footwear sells more compared to other products.  
+  
+  **Overall Insights**
+-  Adidas achieved strong overall performance, with high revenue, solid profit, and a healthy operating margin, showing effective pricing and cost control.
+- Men’s Street Footwear is the main revenue and profit driver, making it the most important product category for sales focus and inventory planning.
+- In-store sales generate more total revenue, but online sales are more efficient, delivering higher profit margins.
+- Sales performance varies by time, with clear peak and low months, showing the need for better seasonal planning.
+- The West Region is the strongest market and should remain a priority for marketing and distribution.
+- Women’s Athletic Footwear outperforms Women’s Street Footwear, indicating higher customer demand in athletic products.
+
+## Recommendations
+
+Based on the analysis, the following recomedations can help strengthen retail strategy and revenue growth.
+
+- Increase investment in Men’s Street Footwear through targeted marketing and consistent restocking, as it drives the highest revenue and profit.
+- Expand and optimize the online sales channel to improve overall profitability, since it delivers higher profit margins than in-store sales.
+- Improve in-store cost efficiency by reviewing operational expenses to raise its lower operating margin.
+- Strengthen sales activities during low-performing months with promotions or campaigns to reduce revenue drops.
+- Focus marketing and distribution efforts in the West Region, while applying successful strategies from this region to other areas.
+- Increase inventory and promotion for Women’s Athletic Footwear, as it performs better than Women’s Street Footwear.
+
+## Limitations
+
+This analysis is based on a fictional dataset which has limited data scope, lack of customer-level details, absence of external factors such as promotions or economic conditions, and potential data quality issues that may affect the accuracy of insights.
