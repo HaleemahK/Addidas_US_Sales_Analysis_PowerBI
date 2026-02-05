@@ -51,6 +51,82 @@ This dataset contains **9648 Total Transactions** it captures detailed informati
  - **Sales price**- The final price which was paid for the product.
  - **Profit margin**- The percentage ratio that shows how much revenue is kept as profit after expenses.
  - **Cost**- The total expense incurred to produce, acquire, and deliver the product.
- - **Addidas Calender** The period in which the trasaction occurred, this took the span of 2 year(2020,2021)
- 
- Analysis explores sales performance across products, regions, and channels to identify revenue trends, customer demand patterns, and key growth opportunities. The project demonstrates data cleaning, analysis, and visualization for data-driven retail insights.
+ - **Addidas Calender** The period in which the trasaction occurred, this took the span of 2 year(2020,2021).
+
+# Data Preparation
+To ensure accuracy and usuability, the dataset undewent a series of **cleaning and tranformation steps** before analysis. This process was carried into **Power Query** and **PowerBI** focusing on recovering inconsistencies, deriving new fields and preparing the data for visualization.
+
+### Key Steps taken
+- Loaded the data into power query to check for missing value and inconsistency, the loaded into powerbi sheet.
+- Created a Calender table date extracting the *Year*, *Month*, *Day*, *Weekday*, *Weeknum*, *Monthname*, Weekname*, *Quater*.
+- Created a column to calculate cost.
+- Check for duplicates to avoid wrong analysis.
+- Created a column to calculate profit margin.
+- Created a column to calculate sale price.
+-  measures such Previous month, Previous Quater, Prior sales, Avg Operating profit, Total MTD, Total QTD, Total YTD, Profit, Profit margin and Revenue
+- Created an interactive title.
+  
+# Measures (DAX)
+**Description**
+  Contains calculated measures using **DAX function** to define key KPIs and evaluate sales performance.These measures form the backbone of the dashboard, providing insights into Revenue, Profit and Profitability either yearly, monthly or Quaterly.
+
+**Fields**
+  - Total number of trasactions
+  - Unit Sold
+  - Total Transaction
+  - Revenue
+  - Average Operating profit
+  - Profit
+  - Previous month
+  - Previous Quater
+  - Prior sales
+  - Total MTD
+  - Total QTD
+  - Total YTD
+  - Profit margin
+
+**Purpose:**
+This purpose is to helps stakeholders monitor revenue growth, customer demand patterns,product performance,track transaction volume,track sales per Region/State and understanding the sales trends over time. Which would help make better decisions going forward.
+
+# Data Analysis and Visualization
+
+The dashboard is structured into two main pages, each focusing on  Performance Analysis, Regional and Temporal Trends, Profitability Insights and Product-Specific Analysis and delivering insights for stakeholders,marketers,sales teams and the companies directors.
+
+## Page 1: Performance Analysis and Regional trends
+
+**Retail Goal:**
+Analyze the revenue by the product, retailer, sales method,region and the percentage margin for sales method and average operating margin by product.
+<img width="989" height="556" alt="Page 1  Addidas Dataset" src="https://github.com/user-attachments/assets/fd27cbf3-f78b-4402-af6c-016af2337421" />
+
+# Key Metrics( Top of the page): Revenue, Profit, AvgOperatingMargin, Unit sold, Total Trasactions.
+
+- **Revenue:** The total amount of money made from the products.
+- **Profit:** This is the net income.
+- **AvgOperatingMargin:** The average of the overall operating margin.
+- **Unit sold:** The total number of products sold.
+- **Total Trasactions:** The total number of transactions made.
+
+This KPIs shows a snapshot of customer behaviour and sales activity, thereby helping stakeholdes identify the key drivers of revenue and transaction frequency.
+
+-----
+
+## Visuals
+
+- **Revenue by Product(Column Chart):** It represents the total sales for each products (Women's Apparel,Men's Street Footwear,Men's Athletic Footwear,Women's Street Footwear,Women's Athletic Footwear,Men's Apparel).
+- **Revenue by Region (Column Chart):** It represent the total revenue for each regionS (Midwest,Northeast,South,Southeast,West).
+- **Revenue by sales method (Column Chart):** It represents the total sales for each sales method( Out-let, Online, In-store).
+- **Revenue by Retailer (Column Chart):** It represents the total sales for each retailer(West Gear, Foot Locker, Kohl's, Sport Direct, Amazon, Walmart).
+- **ProfitMargin by Sales Method( Bar Chart):** It represents the percentage profit for each sales method.
+- **AvgOperatingMargin by Product (Column Chart):** It represents the average operating margin for each product.
+
+ ## Slicers: Year, Region and Product
+
+ The dashboard includes  **Year, Region and Product** slicer that allows user to fliter and interact with the data. It also includes an interactive title which gives a well defined title when being flitered. 
+
+ This interactive fliters ensures that KPIs, charts and visuals adapt instantly giving the stakeholders a flexible view by narrowing the focus on specific Year, Region or Product.
+
+  ----
+
+  # Page Two: Profitability Insights and Temporal Trends 
+-----
+ Analysis explores key growth opportunities. The project demonstrates data cleaning, analysis, and visualization for data-driven retail insights.
